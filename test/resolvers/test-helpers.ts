@@ -1,5 +1,5 @@
 import {Provider} from 'typescript-ioc';
-import {ProjectApi, TaskApi} from '../../src/services';
+import {ProjectApi, TaskApi} from '../../src/service';
 
 export class MockProjectApiProvider implements Provider {
   private projectApi: ProjectApi = {

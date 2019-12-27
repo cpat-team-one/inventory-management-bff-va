@@ -1,4 +1,4 @@
-import {ProjectApi, TaskApi} from '../../src/services';
+import {ProjectApi, TaskApi} from '../../src/service';
 import {Container, Provider} from 'typescript-ioc';
 import {ProjectResolver} from '../../src/resolvers';
 import Mock = jest.Mock;

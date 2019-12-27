@@ -4,7 +4,7 @@ import {Arg, FieldResolver, Mutation, Query, Resolver, Root} from 'type-graphql'
 import {Task} from '../schemas';
 import {ProjectModel, TaskModel} from '../models';
 import {resolverManager} from './_resolver-manager';
-import {ProjectApi, TaskApi} from '../services';
+import {ProjectApi, TaskApi} from '../service';
 
 @Resolver(of => Task)
 export class TaskResolver {

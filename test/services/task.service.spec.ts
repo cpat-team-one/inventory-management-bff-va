@@ -1,4 +1,4 @@
-import {TaskService, TaskServiceConfig} from '../../src/services';
+import {TaskService, TaskServiceConfig} from '../../src/service';
 import {Container} from 'typescript-ioc';
 import {when} from 'q';
 

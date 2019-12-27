@@ -1,4 +1,4 @@
-import {ProjectServiceConfig, ProjectService} from '../../src/services';
+import {ProjectServiceConfig, ProjectService} from '../../src/service';
 import {Container} from 'typescript-ioc';
 
 describe('project.service', () => {

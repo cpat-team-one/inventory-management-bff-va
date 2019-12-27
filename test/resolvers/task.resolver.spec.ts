@@ -1,4 +1,4 @@
-import {ProjectApi, TaskApi} from '../../src/services';
+import {ProjectApi, TaskApi} from '../../src/service';
 import {Container} from 'typescript-ioc';
 import {TaskResolver} from '../../src/resolvers';
 import {ProjectModel, TaskModel} from '../../src/models';
