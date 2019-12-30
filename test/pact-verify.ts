@@ -3,6 +3,7 @@ import fs = require('fs');
 import {Verifier, VerifierOptions} from '@pact-foundation/pact';
 import * as yargs from 'yargs';
 
+
 import {buildApiServer} from "./helper";
 import * as config from '../package.json';
 import {ApiServer} from "../src/server";
